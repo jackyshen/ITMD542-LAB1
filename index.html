@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jacky’s CS542 Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Skip link for accessibility -->
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#">
+          <span class="brand-mark">JS</span>
+          <span class="brand-text">My CS542 Site</span>
+        </a>
+
+        <button class="menu-btn" aria-label="Open menu" aria-expanded="false">
+          ☰
+        </button>
+
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#schedule">Schedule</a>
+          <a class="nav-cta" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <!-- Hero -->
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">ITMD542 • Responsive Web Demo</p>
+            <h1>Build clean, responsive pages with HTML + CSS.</h1>
+            <p class="lead">
+              This page is a styled mock portfolio/demo site with multiple
+              components: navigation, cards, table, badges, form elements, and a
+              responsive layout using media queries.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn primary" href="#projects">View Projects</a>
+              <a class="btn ghost" href="#contact">Get in Touch</a>
+            </div>
+
+            <div class="hero-badges" aria-label="Highlights">
+              <span class="badge">Mobile-first</span>
+              <span class="badge">No framework required</span>
+              <span class="badge">Accessible basics</span>
+            </div>
+          </div>
+
+          <aside class="hero-card" aria-label="Quick stats">
+            <h2 class="card-title">Quick Snapshot</h2>
+            <ul class="stat-list">
+              <li>
+                <span class="stat-num">3</span>
+                <span class="stat-label">Sample projects</span>
+              </li>
+              <li>
+                <span class="stat-num">8+</span>
+                <span class="stat-label">Styled components</span>
+              </li>
+              <li>
+                <span class="stat-num">2</span>
+                <span class="stat-label">Media query breakpoints</span>
+              </li>
+            </ul>
+
+            <div class="divider"></div>
+
+            <p class="muted">
+              Tip: Open Chrome DevTools → Toggle device toolbar → test iPhone /
+              Android sizes.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>About</h2>
+            <p class="muted">
+              Replace this text with your own content (any content is fine).
+            </p>
+          </div>
+
+          <div class="about-grid">
+            <article class="panel">
+              <h3>Who I am</h3>
+              <p>
+                I’m building web fundamentals for CS542. I like clean UI, good
+                spacing, and responsive layouts that don’t fall apart on mobile.
+              </p>
+              <p>
+                This section demonstrates typography, spacing, and a “panel”
+                component.
+              </p>
+            </article>
+
+            <article class="panel">
+              <h3>What this page shows</h3>
+              <ul class="checklist">
+                <li>Sticky header + responsive nav</li>
+                <li>Card grid + hover states</li>
+                <li>Table styling</li>
+                <li>Form styling (inputs, select, textarea)</li>
+                <li>Two breakpoints with media queries</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="section alt">
+        <div class="container">
+          <div class="section-head">
+            <h2>Projects</h2>
+            <p class="muted">
+              These are placeholders—swap for my  own titles/descriptions.
+            </p>
+          </div>
+
+          <div class="card-grid">
+            <article class="card">
+              <div class="card-top">
+                <span class="pill">Frontend</span>
+                <span class="pill soft">HTML/CSS</span>
+              </div>
+              <h3>Landing Page</h3>
+              <p>
+                A marketing-style landing page with a hero, CTA buttons, and
+                responsive card layout.
+              </p>
+              <a class="card-link" href="#">Read more →</a>
+            </article>
+
+            <article class="card">
+              <div class="card-top">
+                <span class="pill">UI</span>
+                <span class="pill soft">Components</span>
+              </div>
+              <h3>Component Library</h3>
+              <p>
+                Buttons, badges, panels, tables, and forms with consistent
+                spacing and hover states.
+              </p>
+              <a class="card-link" href="#">Read more →</a>
+            </article>
+
+            <article class="card">
+              <div class="card-top">
+                <span class="pill">Responsive</span>
+                <span class="pill soft">Media Queries</span>
+              </div>
+              <h3>Mobile Layout</h3>
+              <p>
+                Grid collapses nicely on small screens; navigation becomes
+                simpler; spacing adjusts.
+              </p>
+              <a class="card-link" href="#">Read more →</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Skills</h2>
+            <p class="muted">A simple list + progress bars (styled).</p>
+          </div>
+
+          <div class="skills-grid">
+            <div class="panel">
+              <h3>Toolbox</h3>
+              <div class="tag-row">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Responsive Design</span>
